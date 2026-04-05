@@ -23,6 +23,7 @@ To identify employees likely to stay and understand factors influencing retentio
 
 ## 📊 Model Evaluation
 
+
 ### 📊 Class Distribution
 
 ![Class Balance](class_balance.png)
@@ -45,6 +46,14 @@ Optimal cutoff (~0.5) balances sensitivity and specificity for better prediction
 
 The model performs significantly better than random, showing strong predictive ability.
 
+
+---
+
+🚀 Conclusion
+
+This project demonstrates how machine learning can be used to proactively predict employee retention. 
+The insights help organizations identify key factors influencing retention and take data-driven actions 
+to improve employee satisfaction and reduce attrition.
 
 ---
 
