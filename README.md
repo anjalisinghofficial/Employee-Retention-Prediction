@@ -21,11 +21,36 @@ To identify employees likely to stay and understand factors influencing retentio
 * Logistic regression model
 * Model evaluation (accuracy, precision, recall, ROC-AUC)
 
+## 📊 Model Evaluation
+
+### 📊 Class Distribution
+
+![Class Balance](class_balance.png)
+
+The dataset is relatively balanced, ensuring reliable model performance without bias.
+
+---
+
+### ⚖️ Threshold Analysis
+
+![Threshold](threshold_plot.png)
+
+Optimal cutoff (~0.5) balances sensitivity and specificity for better prediction.
+
+---
+
+### 📉 ROC Curve
+
+![ROC](roc_curve.png)
+
+The model performs significantly better than random, showing strong predictive ability.
+
+
 ---
 
 ## 🔑 Key Findings
 
 * High job satisfaction → lower attrition
 * Work-life balance strongly impacts retention
-* Overtime increases risk of leaving
+* Overtime increases the risk of leaving
 * Model performs well (ROC curve above baseline)
